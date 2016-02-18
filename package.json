@@ -1,0 +1,37 @@
+{
+  "name": "artillery-dino",
+  "version": "1.0.0",
+  "description": "Dino - experimental load-generator powered by Artillery.io and AWS Lambda",
+  "main": "./bin/dino",
+  "engines": {
+    "node": ">= 4.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "artillery",
+    "load",
+    "testing",
+    "performance",
+    "testing",
+    "benchmarking",
+    "lambda"
+  ],
+  "author": "Hassy Veldstra <h@artillery.io>",
+  "license": "MPL-2.0",
+  "preferGlobal": true,
+  "bin": {
+    "dino": "./bin/dino"
+  },
+  "dependencies": {
+    "async": "1.5.2",
+    "aws-sdk": "2.2.35",
+    "clean-base-url": "1.0.0",
+    "debug": "2.2.0",
+    "lodash": "4.5.0",
+    "node-uuid": "1.4.7",
+    "stats-lite": "2.0.0",
+    "yargs": "^4.1.0"
+  }
+}
