@@ -1,5 +1,11 @@
 # Project Dino - massive scale load tests from AWS Lambda
 
+## Note
+
+🦖 **Dino was an experiment and is no longer maintained.**
+
+ℹ️ [Artillery Pro](https://artillery.io/pro) provides distributed large scale testing (including a [Fargate](https://aws.amazon.com/fargate/) based serverless backend).
+
 ## Usage
 
 Set up an IAM user and a role first and add the credentials to `~/.aws/credentials` under `[dino]`. Then run:
@@ -21,3 +27,4 @@ Hassy Veldstra <[h@artillery.io](h@artillery.io)>
 MPLv2 - see [LICENSE.txt](./LICENSE.txt) for details
 
 (Note: several dependencies are bundled under `lambda/out/node_modules` -- the above MPLv2 declaration does not apply to those.)
+
