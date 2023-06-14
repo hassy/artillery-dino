@@ -4,7 +4,7 @@
 
 🦖 **Dino was an experiment and is no longer maintained.**
 
-ℹ️ [Artillery Pro](https://artillery.io/pro) provides distributed large scale testing (including a [Fargate](https://aws.amazon.com/fargate/) based serverless backend).
+ℹ️ [Artillery](https://www.artillery.io/) has built-in support for scaling out tests on AWS Lambda or AWS Fargate now.
 
 ## Usage
 
